@@ -2,12 +2,16 @@
 Implementasi api key di golang
 
 ## Cara menggunakan 
-1. lakukan go mod init terlebih dahulu
-2. run server golang dengan command go run .
+1. Lakukan go mod init terlebih dahulu
+2. Run server golang dengan command go run .
 
-### API 
-host:8000/api/login 
+## API 
+http://host:8000/api/login 
 
 Header: 
 1. Content-type: application/json
-2. X-API-KEY: key-xxx 
+2. X-API-KEY: key-xxx
+
+Parameter(Body request): 
+1. username
+2. password
